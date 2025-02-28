@@ -1,0 +1,14 @@
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\bin\Debug\Project_1_Semester_4.exe.config
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\bin\Debug\Project_1_Semester_4.exe
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\bin\Debug\Project_1_Semester_4.pdb
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.csproj.AssemblyReference.cache
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.Properties.Resources.resources
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.csproj.GenerateResource.cache
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.csproj.CoreCompileInputs.cache
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.exe
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.pdb
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.Form_Login.resources
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.Form_MainMenu.resources
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.Form_SupplierControl.resources
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.Form_StockControl.resources
+C:\Users\Javier Farel Baroto\Documents\CCIT\SEMESTER_4\Project_1\Project_1_Semester_4\Project_1_Semester_4\obj\Debug\Project_1_Semester_4.Form_StockUpdate.resources

@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|c:\\users\\javier farel baroto\\documents\\ccit\\semester_4\\project_1\\project_1_semester_4\\project_1_semester_4\\form_stockupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_stockupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|c:\\users\\javier farel baroto\\documents\\ccit\\semester_4\\project_1\\project_1_semester_4\\project_1_semester_4\\form_stockupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_stockupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|c:\\users\\javier farel baroto\\documents\\ccit\\semester_4\\project_1\\project_1_semester_4\\project_1_semester_4\\form_stockcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_stockcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|c:\\users\\javier farel baroto\\documents\\ccit\\semester_4\\project_1\\project_1_semester_4\\project_1_semester_4\\form_stockcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_stockcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\project_1_semester_4\\form_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\project_1_semester_4\\form_suppliercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_suppliercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\project_1_semester_4\\form_suppliercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_suppliercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\project_1_semester_4\\form_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\project_1_semester_4\\form_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|c:\\users\\javier farel baroto\\documents\\ccit\\semester_4\\project_1\\project_1_semester_4\\project_1_semester_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\project_1_semester_4\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\project_1_semester_4\\form_suppliercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA8246C1-B967-484B-BF96-0F01725664F3}|Project_1_Semester_4\\Project_1_Semester_4.csproj|solutionrelative:project_1_semester_4\\form_suppliercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 290,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form_StockUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_StockUpdate.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_StockUpdate.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_StockUpdate.cs*",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_StockUpdate.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:36:54.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_StockControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_StockControl.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_StockControl.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_StockControl.cs [Design]*",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_StockControl.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:10:25.163Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form_MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_MainMenu.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_MainMenu.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_MainMenu.cs",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_MainMenu.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:12:41.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_StockControl.cs",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_StockControl.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_StockControl.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_StockControl.cs*",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_StockControl.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:20:54.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_StockUpdate.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_StockUpdate.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_StockUpdate.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_StockUpdate.cs [Design]*",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_StockUpdate.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:30:39.816Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form_SupplierControl.cs",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_SupplierControl.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_SupplierControl.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_SupplierControl.cs",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_SupplierControl.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwDQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:13:01.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form_SupplierControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_SupplierControl.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_SupplierControl.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_SupplierControl.cs [Design]",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_SupplierControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T01:46:52.053Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form_MainMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_MainMenu.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_MainMenu.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_MainMenu.cs [Design]",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_MainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:00:15.036Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form_Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_Login.Designer.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_Login.Designer.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_Login.Designer.cs",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:43:45.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Program.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Program.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Program.cs",
+              "RelativeToolTip": "Project_1_Semester_4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:42:22.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form_Login.cs",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_Login.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_Login.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_Login.cs",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_Login.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T01:45:34.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form_SupplierControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_SupplierControl.Designer.cs",
+              "RelativeDocumentMoniker": "Project_1_Semester_4\\Form_SupplierControl.Designer.cs",
+              "ToolTip": "C:\\Users\\Javier Farel Baroto\\Documents\\CCIT\\SEMESTER_4\\Project_1\\Project_1_Semester_4\\Project_1_Semester_4\\Form_SupplierControl.Designer.cs",
+              "RelativeToolTip": "Project_1_Semester_4\\Form_SupplierControl.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:39:55.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 43,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
