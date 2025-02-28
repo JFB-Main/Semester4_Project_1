@@ -21,22 +21,37 @@ namespace Project_1_Semester_4
                 try
                 {
                     conn.Open();
-                    string query = "SELECT password_hash FROM users WHERE username = @username";
 
+                    string query = "SELECT password_hash, role FROM users WHERE username = @username";
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@username", username);
-                        object result = cmd.ExecuteScalar();
-
-                        if (result != null)
+                        using (MySqlDataReader reader = cmd.ExecuteReader())
                         {
-                            string storedHash = result.ToString();
-                            string inputHash = ComputeSHA256(password); 
-
-                            // Bandingkan hash dari database dengan hash input
-                            if (storedHash.Equals(inputHash, StringComparison.OrdinalIgnoreCase))
+                            if (reader.Read())
                             {
-                                isAuthenticated = true;
+                                string storedHash = reader.GetString(0);
+                                string role = reader.GetString(1); // Ambil role
+
+                                string inputHash = ComputeSHA256(password); // Hash password input
+
+                                if (storedHash.Equals(inputHash, StringComparison.OrdinalIgnoreCase))
+                                {
+                                    isAuthenticated = true;
+                                    LogLogin(username, "success");
+                                    if (role == "admin")
+                                    {
+                                        MessageBox.Show("Admin Login Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    }
+                                }
+                                else
+                                {
+                                    LogLogin(username, "failed");
+                                }
+                            }
+                            else
+                            {
+                                LogLogin(username, "failed");
                             }
                         }
                     }
@@ -45,26 +60,44 @@ namespace Project_1_Semester_4
                 {
                     MessageBox.Show("Error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                finally
-                {
-                    if (conn.State == System.Data.ConnectionState.Open)
-                    {
-                        conn.Close();
-                    }
-                }
             }
 
             return isAuthenticated;
         }
 
-        // Fungsi untuk hashing SHA-1
+
+
+        
         public static string ComputeSHA256(string input)
         {
             using (SHA256 sha256 = SHA256.Create())
             {
                 byte[] bytes = Encoding.UTF8.GetBytes(input);
                 byte[] hash = sha256.ComputeHash(bytes);
-                return BitConverter.ToString(hash).Replace("-", "").ToLower(); // Ubah ke format hex
+                return BitConverter.ToString(hash).Replace("-", "").ToLower(); 
+            }
+        }
+
+        public void LogLogin(string username, string status)
+        {
+            using (MySqlConnection conn = Connection.GetConnection())
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "INSERT INTO login_logs (username, status) VALUES (@username, @status)";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@username", username);
+                        cmd.Parameters.AddWithValue("@status", status);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error Logging Login: " + ex.Message);
+                }
             }
         }
     }
