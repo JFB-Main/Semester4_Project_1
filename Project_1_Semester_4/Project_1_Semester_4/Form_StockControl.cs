@@ -59,5 +59,19 @@ namespace Project_1_Semester_4
         {
 
         }
+
+        private void bt_HisLogout_Click(object sender, EventArgs e)
+        {
+            Form_HistoryLogout form_HistoryLogoutLink = new Form_HistoryLogout();
+            form_HistoryLogoutLink.Show();
+            this.Hide();
+        }
+
+        private void bt_HisLogin_Click(object sender, EventArgs e)
+        {
+            Form_HistoryLogin form_HistoryLoginLink = new Form_HistoryLogin();
+            form_HistoryLoginLink.Show();
+            this.Hide();
+        }
     }
 }

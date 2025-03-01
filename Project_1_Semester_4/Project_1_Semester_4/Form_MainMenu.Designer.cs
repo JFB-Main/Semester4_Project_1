@@ -45,6 +45,9 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.btStoUpdate = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.bt_HisLogin = new System.Windows.Forms.Button();
+            this.bt_HisLogout = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -245,6 +248,47 @@
             this.btStoUpdate.UseVisualStyleBackColor = false;
             this.btStoUpdate.Click += new System.EventHandler(this.btStoUpdate_Click);
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.Control;
+            this.label11.Location = new System.Drawing.Point(9, 474);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(144, 16);
+            this.label11.TabIndex = 20;
+            this.label11.Text = "Admin History View:";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // bt_HisLogin
+            // 
+            this.bt_HisLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(253)))), ((int)(((byte)(0)))));
+            this.bt_HisLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.bt_HisLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_HisLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_HisLogin.Location = new System.Drawing.Point(12, 502);
+            this.bt_HisLogin.Name = "bt_HisLogin";
+            this.bt_HisLogin.Size = new System.Drawing.Size(179, 39);
+            this.bt_HisLogin.TabIndex = 21;
+            this.bt_HisLogin.Text = "Login History";
+            this.bt_HisLogin.UseVisualStyleBackColor = false;
+            this.bt_HisLogin.Click += new System.EventHandler(this.bt_HisLogin_Click);
+            // 
+            // bt_HisLogout
+            // 
+            this.bt_HisLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(253)))), ((int)(((byte)(0)))));
+            this.bt_HisLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.bt_HisLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_HisLogout.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_HisLogout.Location = new System.Drawing.Point(12, 558);
+            this.bt_HisLogout.Name = "bt_HisLogout";
+            this.bt_HisLogout.Size = new System.Drawing.Size(179, 39);
+            this.bt_HisLogout.TabIndex = 22;
+            this.bt_HisLogout.Text = "Logout History";
+            this.bt_HisLogout.UseVisualStyleBackColor = false;
+            this.bt_HisLogout.Click += new System.EventHandler(this.bt_HisLogout_Click);
+            // 
             // Form_MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -252,6 +296,9 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = global::Project_1_Semester_4.Properties.Resources.hatch;
             this.ClientSize = new System.Drawing.Size(1283, 752);
+            this.Controls.Add(this.bt_HisLogout);
+            this.Controls.Add(this.bt_HisLogin);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.btStoUpdate);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -298,6 +345,9 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button btStoUpdate;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button bt_HisLogin;
+        private System.Windows.Forms.Button bt_HisLogout;
     }
 }
 

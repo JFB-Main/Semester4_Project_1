@@ -56,6 +56,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgStocks = new System.Windows.Forms.DataGridView();
+            this.bt_HisLogout = new System.Windows.Forms.Button();
+            this.bt_HisLogin = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nu_StoAmount)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgStocks)).BeginInit();
@@ -373,12 +376,56 @@
             this.dgStocks.Size = new System.Drawing.Size(564, 600);
             this.dgStocks.TabIndex = 93;
             // 
+            // bt_HisLogout
+            // 
+            this.bt_HisLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(253)))), ((int)(((byte)(0)))));
+            this.bt_HisLogout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.bt_HisLogout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_HisLogout.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_HisLogout.Location = new System.Drawing.Point(12, 569);
+            this.bt_HisLogout.Name = "bt_HisLogout";
+            this.bt_HisLogout.Size = new System.Drawing.Size(179, 39);
+            this.bt_HisLogout.TabIndex = 124;
+            this.bt_HisLogout.Text = "Logout History";
+            this.bt_HisLogout.UseVisualStyleBackColor = false;
+            this.bt_HisLogout.Click += new System.EventHandler(this.bt_HisLogout_Click);
+            // 
+            // bt_HisLogin
+            // 
+            this.bt_HisLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(253)))), ((int)(((byte)(0)))));
+            this.bt_HisLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.bt_HisLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_HisLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_HisLogin.Location = new System.Drawing.Point(12, 513);
+            this.bt_HisLogin.Name = "bt_HisLogin";
+            this.bt_HisLogin.Size = new System.Drawing.Size(179, 39);
+            this.bt_HisLogin.TabIndex = 123;
+            this.bt_HisLogin.Text = "Login History";
+            this.bt_HisLogin.UseVisualStyleBackColor = false;
+            this.bt_HisLogin.Click += new System.EventHandler(this.bt_HisLogin_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.Control;
+            this.label8.Location = new System.Drawing.Point(9, 485);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(144, 16);
+            this.label8.TabIndex = 122;
+            this.label8.Text = "Admin History View:";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
             // Form_StockUpdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Project_1_Semester_4.Properties.Resources.hetchbawah2;
             this.ClientSize = new System.Drawing.Size(1283, 752);
+            this.Controls.Add(this.bt_HisLogout);
+            this.Controls.Add(this.bt_HisLogin);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.nu_StoAmount);
             this.Controls.Add(this.tx_StoDesc);
             this.Controls.Add(this.label9);
@@ -448,5 +495,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dgStocks;
+        private System.Windows.Forms.Button bt_HisLogout;
+        private System.Windows.Forms.Button bt_HisLogin;
+        private System.Windows.Forms.Label label8;
     }
 }

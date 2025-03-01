@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form_HistoryLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HistoryLogin.Designer.cs">
+      <DependentUpon>Form_HistoryLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_HistoryLogout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_HistoryLogout.Designer.cs">
+      <DependentUpon>Form_HistoryLogout.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_HistoryLogin.resx">
+      <DependentUpon>Form_HistoryLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_HistoryLogout.resx">
+      <DependentUpon>Form_HistoryLogout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
     </EmbeddedResource>
